@@ -67,7 +67,23 @@ function Results() {
   const { state } = useLocation()
   const navigate = useNavigate()
   const data = state ?? null
-
+  const experienceInsights = [
+    {
+        type: "strength",
+        title: "Experience",
+        description: data.experienceMatch
+    },
+    {
+        type: "strength",
+        title: "Education",
+        description: data.educationMatch
+    },
+    {
+        type: "strength",
+        title: "Projects",
+        description: data.projectMatch
+    }
+]
   useEffect(() => {
     if (!data) {
       navigate('/', { replace: true })
@@ -75,7 +91,16 @@ function Results() {
   }, [data, navigate])
 
   const missingSkills = data?.missingSkills ?? []
-  const skillBreakdown = data?.skillBreakdown ?? []
+  const skillBreakdown = [
+  ...(data?.matchedSkills ?? []).map(skill => ({
+    name: skill,
+    score: 100
+  })),
+  ...(data?.missingSkills ?? []).map(skill => ({
+    name: skill,
+    score: 0
+  }))
+]
   const matchedSkillsCount =
     data?.matchedSkillsCount ??
     skillBreakdown.filter((skill) => (skill.score ?? 0) >= 60).length
@@ -106,19 +131,19 @@ function Results() {
 
           <div className="results-row results-row-primary">
             <CompatibilityScoreCard
-              score={data.compatibilityScore}
+              score={data.candidateFitScore}
               matchLabel={data.matchLabel}
-              headline={data.headline}
-              summary={data.summary}
+              headline={data.executiveSummary}
+              summary={data.overallAnalysis}
               experienceScore={data.experienceScore}
               skillsScore={data.skillsScore}
               atsScore={data.atsScore}
               confidence={data.confidence}
             />
             <ResumeSummaryCard
-              resumeName={data.resumeName}
-              selectedGoal={data.selectedGoal}
-              jobTitle={data.jobTitle}
+              resumeName="Uploaded Resume"
+              selectedGoal={data.goal}
+              jobTitle="AI Product Engineering Intern"
               analysisDate={data.analysisDate}
               totalSkills={totalSkills}
               matchedSkillsCount={matchedSkillsCount}
@@ -131,23 +156,29 @@ function Results() {
               skills={skillBreakdown}
               matchedCount={matchedSkillsCount}
               totalCount={totalSkills}
-              matchPercentage={data.skillsScore}
+              matchPercentage={
+    Math.round(
+        ((data?.matchedSkills?.length ?? 0) /
+        ((data?.matchedSkills?.length ?? 0) +
+        (data?.missingSkills?.length ?? 0))) * 100
+    )
+}
             />
             <MissingSkillsCard missingSkills={missingSkills} />
           </div>
 
           <div className="results-row results-row-secondary">
-            <ExperienceAnalysisCard items={data.experienceInsights ?? []} />
-            <ResumeSuggestionsCard suggestions={data.resumeSuggestions ?? []} />
+            <ExperienceAnalysisCard items={experienceInsights} />
+            <ResumeSuggestionsCard suggestions={data.resumeImprovements ?? []} />
           </div>
 
           <div className="results-row results-row-roadmap">
-            <CareerRoadmapCard steps={data.roadmapSteps ?? []} />
-            <CertificationsCard certifications={data.certifications ?? []} />
+            <CareerRoadmapCard steps={data.learningRoadmap ?? []} />
+            <CertificationsCard certifications={data.certificationRecommendations ?? []} />
           </div>
 
           <div className="results-row-full">
-            <JobRolesCard roles={data.jobRoles ?? []} />
+            <JobRolesCard roles={data.jobRecommendations ?? []} />
           </div>
 
           <ResultsActions onDownloadPdf={data.onDownloadPdf} />

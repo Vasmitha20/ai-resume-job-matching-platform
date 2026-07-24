@@ -4,6 +4,10 @@
 //   suggestions   array of strings
 
 function ResumeSuggestionsCard({ suggestions = [] }) {
+  const resumeSuggestions =
+  {resumeSuggestions}.map(item =>
+    `${item.section}: ${item.suggestion}`
+  )
   return (
     <div className="result-card suggestions-card">
       <div className="result-card-top">

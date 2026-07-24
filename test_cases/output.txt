@@ -1,0 +1,835 @@
+INFO:     Application startup complete.
+INFO:     127.0.0.1:62712 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62712 - "GET /openapi.json HTTP/1.1" 200 OK
+===== Endpoint reached =====
+================================================================================
+{
+  "candidateName": "Vasmitha Mallapareddy",
+  "contactInfo": {
+    "email": "mvasmitha07@gmail.com",
+    "phone": "+91 9390549660",
+    "location": null,
+    "links": [
+      {
+        "label": "LinkedIn",
+        "url": "linkedin.com/in/vasmitha-mallapareddy"
+      },
+      {
+        "label": "Portfolio",
+        "url": "vasmitha-portfolio.vercel.app"
+      }
+    ]
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Technology (B.Tech)",
+      "major": "Computer Science and Design",
+      "institution": "Sagi Rama Krishnam Raju Engineering College (SRKR)",
+      "graduationYear": "Aug 2024 - Present",
+      "location": null,
+      "honors": "CGPA: 9.23/10"
+    },
+    {
+      "degree": "Higher Secondary Certificate (MPC)",
+      "major": "MPC",
+      "institution": "MP & EV English Medium School",
+      "graduationYear": "Jun 2022 - Apr 2024",
+      "location": null,
+      "honors": "Percentage: 89.8%"
+    },
+    {
+      "degree": "Secondary School Certificate",
+      "major": null,
+      "institution": "Sri Chaitanya Boon School",
+      "graduationYear": "Mar 2021 - Mar 2022",
+      "location": null,
+      "honors": "Percentage: 92.1%"
+    }
+  ],
+  "workExperience": [
+    {
+      "jobTitle": "MERN Stack Developer Intern",
+      "company": "The Entrepreneurship Network (TEN)",
+      "location": null,
+      "startDate": "May 2026",
+      "endDate": "June 2026",
+      "description": "Completed and deployed a personal portfolio website as part of internship deliverables.",
+      "responsibilities": [
+        "Completed and deployed a personal portfolio website as part of internship deliverables."
+      ],
+      "accomplishments": []
+    }
+  ],
+  "technicalSkills": [
+    "C",
+    "Java",
+    "Python",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Windows",
+    "Linux",
+    "GitHub",
+    "VS Code",
+    "Figma",
+    "Canva",
+    "Vercel"
+  ],
+  "softSkills": [],
+  "projects": [
+    {
+      "title": "NutriFit – Nutrition & Workout Planner",
+      "description": "Developed a nutrition and workout planning web application. Contributed to the Daily Tasks & Consistency Tracking module and frontend UI during a 24-hour hackathon.",
+      "technologies": [],
+      "role": null
+    },
+    {
+      "title": "Jo's Kitchen – Restaurant Website",
+      "description": "Contributed to frontend development and UI design using HTML and CSS in a team-based web project.",
+      "technologies": [
+        "HTML",
+        "CSS"
+      ],
+      "role": null
+    },
+    {
+      "title": "Personal Portfolio Website",
+      "description": "Designed and developed a responsive portfolio website to showcase projects, achievements, and professional experience. Integrated EmailJS for contact functionality and deployed the website using GitHub and Vercel.",
+      "technologies": [
+        "EmailJS",
+        "GitHub",
+        "Vercel"
+      ],
+      "role": null
+    },
+    {
+      "title": "NutriDelight Student Startup Initiative",
+      "description": "Supported startup operations and customer engagement during campus events, serving 400+ customers. Designed promotional creatives and digital content for startup and campus initiatives.",
+      "technologies": [],
+      "role": null
+    },
+    {
+      "title": "Prompt Engineering & Generative AI Program",
+      "description": "Currently undergoing training in prompt engineering and generative AI concepts.",
+      "technologies": [],
+      "role": null
+    }
+  ],
+  "certifications": [],
+  "achievements": [
+    {
+      "title": "1st Place – AI-Powered Poster Design Competition",
+      "description": "Designed and presented an AI-assisted poster on Gender Equality using DALL·E, ChatGPT, and Canva.",
+      "date": "2025"
+    },
+    {
+      "title": "1st Place (Special Prize Category) – Vedic Vision Hackathon",
+      "description": "Awarded for developing NutriFit, a nutrition and workout planning web application.",
+      "date": null
+    },
+    {
+      "title": "3rd Academic Topper – 1st Year Computer Science and Design (CSD)",
+      "description": null,
+      "date": null
+    }
+  ]
+}
+================================================================================
+================================================================================
+{
+  "jobTitle": "AI Product Engineering Intern",
+  "company": null,
+  "employmentType": "Internship",
+  "location": "Remote (India)",
+  "requiredSkills": [
+    "REST APIs",
+    "Prompt Engineering",
+    "Large Language Models (LLMs)",
+    "JSON Handling"
+  ],
+  "preferredSkills": [
+    "RAG (Retrieval-Augmented Generation)",
+    "UI/UX Design",
+    "Prompt Optimization",
+    "AI Evaluation Techniques",
+    "AI Resume Screening System",
+    "Chatbot using LLMs",
+    "Resume Parser",
+    "Recommendation Engine",
+    "Portfolio Website",
+    "Full Stack Web Application",
+    "Hackathon Projects",
+    "AI Productivity Tools",
+    "Internship experience",
+    "Participation in hackathons",
+    "Open-source contributions",
+    "Product thinking",
+    "UI/UX case studies",
+    "Technical blogging",
+    "Canva or Figma experience"
+  ],
+  "requiredExperience": null,
+  "educationRequirements": [
+    "Pursuing B.Tech/B.E. in Computer Science, Information Technology, Artificial Intelligence, or related fields."
+  ],
+  "responsibilities": [
+    "Develop AI-powered web applications using React and FastAPI.",
+    "Design effective prompts for Large Language Models (Gemini/OpenAI).",
+    "Build workflows for resume parsing, document analysis, and recommendation systems.",
+    "Integrate REST APIs using Axios.",
+    "Work with structured JSON responses from LLMs.",
+    "Create responsive UI components using React.",
+    "Debug frontend and backend issues.",
+    "Collaborate using Git and GitHub.",
+    "Document project architecture and technical decisions.",
+    "Participate in code reviews and testing."
+  ],
+  "requiredCertifications": [],
+  "technologies": [
+    "Python",
+    "FastAPI",
+    "JavaScript (ES6+)",
+    "React.js",
+    "HTML5 & CSS3",
+    "Git & GitHub",
+    "SQL",
+    "Google Gemini API or OpenAI API",
+    "LangChain or LlamaIndex",
+    "Vite",
+    "Figma",
+    "Docker",
+    "Vector Databases",
+    "Axios",
+    "React",
+    "Gemini",
+    "OpenAI",
+    "Canva"
+  ],
+  "softSkills": [
+    "Strong problem-solving skills",
+    "Excellent communication skills",
+    "Ability to learn new technologies quickly"
+  ],
+  "benefits": [
+    "Stipend: ₹15,000–₹25,000/month",
+    "Hands-on experience building production-ready AI products.",
+    "Mentorship from AI engineers.",
+    "Exposure to Prompt Engineering workflows.",
+    "Experience integrating LLM APIs.",
+    "Opportunity for a Pre-Placement Offer (PPO) based on performance."
+  ]
+}
+================================================================================
+================================================================================
+{
+  "goal": "Applying for a Specific Job",
+  "candidateFitScore": 68,
+  "careerReadinessScore": null,
+  "matchedSkills": [
+    "Prompt Engineering",
+    "Python",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "GitHub",
+    "Figma",
+    "Canva"
+  ],
+  "missingSkills": [
+    "REST APIs",
+    "Large Language Models (LLMs)",
+    "JSON Handling",
+    "React.js",
+    "FastAPI",
+    "SQL",
+    "Docker",
+    "Axios",
+    "LangChain or LlamaIndex"
+  ],
+  "transferableSkills": [
+    "C",
+    "Java",
+    "MERN Stack Development",
+    "UI/UX Design"
+  ],
+  "experienceMatch": "The candidate has completed a 1-month internship as a MERN Stack Developer Intern, satisfying the preferred qualification for prior internship experience. However, the documented scope was limited to deploying a personal portfolio, lacking exposure to commercial production systems.",
+  "educationMatch": "The candidate's education is a direct match. They are currently pursuing a Bachelor of Technology (B.Tech) in Computer Science and Design with an outstanding academic record (CGPA 9.23/10), which aligns with the required educational background.",
+  "projectMatch": "The candidate's projects provide strong supporting evidence. They won 1st place in the Vedic Vision Hackathon with their NutriFit project, satisfying the preference for hackathon participation. Additionally, their training in Prompt Engineering & Generative AI and their AI-powered poster design project align well with the AI-focused nature of the role.",
+  "overallAnalysis": "The candidate is a highly promising Computer Science student with excellent academic credentials, hackathon achievements, and foundational programming skills (Python, JS). They show strong alignment with the prompt engineering aspects of the role. However, substantial gaps exist in core technical requirements, specifically backend web frameworks (FastAPI), frontend libraries (React.js), REST APIs, and hands-on LLM orchestration tools (LangChain/LlamaIndex).",
+  "confidence": "High"
+}
+================================================================================
+================================================================================
+{
+  "goal": "Applying for a Specific Job",
+  "resumeImprovements": [
+    {
+      "section": "Work Experience",
+      "suggestion": "Expand on the MERN Stack Developer Internship description. Shift the focus from a basic personal portfolio deployment to highlighting any specific frontend/backend integration, component structure, or API data exchanges you handled during development.",
+      "example": "MERN Stack Developer Intern: Developed and deployed a responsive personal portfolio application. Utilized React.js components for UI modularity, managed state, and integrated REST APIs to handle dynamic content delivery."
+    },
+    {
+      "section": "Projects",
+      "suggestion": "Detail the technical stack of the 1st-place winning 'NutriFit' project from the Vedic Vision Hackathon. Explicitly state the programming languages, data communication formats (like JSON), and database structures (SQL/NoSQL) used to achieve the hackathon objectives.",
+      "example": "NutriFit - 1st Place Vedic Vision Hackathon: Designed and built a health optimization tool using Python and JavaScript. Engineered backend routing, implemented JSON handling for user input processing, and optimized UX using Figma designs."
+    },
+    {
+      "section": "Skills",
+      "suggestion": "Restructure the skills section into precise technical categories. Group technologies into clear clusters (e.g., Languages, Frameworks & Libraries, AI & Design Tools) to immediately showcase your versatility and make your transferable MERN stack skills highly visible.",
+      "example": "Languages: Python, JavaScript, C, Java, HTML/CSS | Frameworks & Libraries: React.js (MERN), Node.js | AI & Design: Prompt Engineering, Figma, Canva, Git/GitHub"
+    }
+  ],
+  "skillRecommendations": [
+    {
+      "skill": "FastAPI & REST APIs",
+      "priority": "High",
+      "learningObjective": "Master backend development by building RESTful routing, payload validation, and JSON request/response handling using FastAPI in Python."
+    },
+    {
+      "skill": "LangChain",
+      "priority": "High",
+      "learningObjective": "Learn LLM orchestration, structured prompt chaining, and retrieval-augmented generation (RAG) pipelines using LangChain or LlamaIndex."
+    },
+    {
+      "skill": "React.js & Axios",
+      "priority": "Medium",
+      "learningObjective": "Develop responsive user interfaces and execute asynchronous HTTP requests to backend endpoints using React state hooks and Axios."
+    }
+  ],
+  "projectRecommendations": [
+    {
+      "title": "AI-Powered Document Summarizer API",
+      "description": "Develop a backend application that accepts document uploads, parses the contents, and communicates with a Large Language Model via LangChain to return a structured JSON summary.",
+      "technologies": [
+        "FastAPI",
+        "Python",
+        "LangChain",
+        "JSON Handling"
+      ],
+      "learningOutcome": "Demonstrates mastery of backend API architecture, modern LLM orchestration frameworks, and structured data handling."
+    },
+    {
+      "title": "Interactive LLM Playground Interface",
+      "description": "Build a responsive frontend web application that connects to a backend API to send prompts and render LLM responses dynamically in real-time.",
+      "technologies": [
+        "React.js",
+        "JavaScript",
+        "Axios",
+        "CSS"
+      ],
+      "learningOutcome": "Validates your frontend development capabilities and demonstrates how to consume REST APIs via Axios."
+    },
+    {
+      "title": "Dockerized REST API with SQL Database",
+      "description": "Design a secure microservice that performs CRUD operations on a relational database, packaged fully inside a Docker container for standardized deployment.",
+      "technologies": [
+        "Docker",
+        "SQL",
+        "FastAPI",
+        "PostgreSQL"
+      ],
+      "learningOutcome": "Bridges the Docker and SQL skill gaps by showing proficiency in containerization and relational database design."
+    }
+  ],
+  "certificationRecommendations": [
+    {
+      "name": "LangChain for LLM Application Development",
+      "issuer": "DeepLearning.AI",
+      "value": "Validates hands-on knowledge in building LLM-powered applications, addressing a major tech requirement for AI-focused software engineering roles."
+    },
+    {
+      "name": "Meta Front-End Developer Professional Certificate",
+      "issuer": "Meta (via Coursera)",
+      "value": "Verifies professional-grade React.js, JavaScript, and API integration skills, directly bridging the frontend skill gap."
+    },
+    {
+      "name": "Docker Associate",
+      "issuer": "Docker",
+      "value": "Proves foundational competence in containerization, image creation, and multi-container deployment pipelines."
+    }
+  ],
+  "learningRoadmap": [],
+  "jobRecommendations": [],
+  "overallRecommendation": "To secure this specific position, immediately optimize your resume to highlight your strong foundational coding (Python, JS) and hackathon achievements. Prioritize a rapid technical upgrade in FastAPI, React.js, and LangChain by building a unified mini-project (e.g., an LLM-powered web tool using FastAPI and React). Re-frame your MERN stack internship to focus on engineering complexity rather than just deployment."
+}
+================================================================================
+================================================================================
+{
+  "isValid": true,
+  "validationStatus": "PASS",
+  "correctedOutput": {
+    "resumeParserOutput": {
+      "candidateName": "Vasmitha Mallapareddy",
+      "contactInfo": {
+        "email": "mvasmitha07@gmail.com",
+        "phone": "+91 9390549660",
+        "location": null,
+        "links": [
+          {
+            "label": "LinkedIn",
+            "url": "linkedin.com/in/vasmitha-mallapareddy"
+          },
+          {
+            "label": "Portfolio",
+            "url": "vasmitha-portfolio.vercel.app"
+          }
+        ]
+      },
+      "education": [
+        {
+          "degree": "Bachelor of Technology (B.Tech)",
+          "major": "Computer Science and Design",
+          "institution": "Sagi Rama Krishnam Raju Engineering College (SRKR)",
+          "graduationYear": "Aug 2024 - Present",
+          "location": null,
+          "honors": "CGPA: 9.23/10"
+        },
+        {
+          "degree": "Higher Secondary Certificate (MPC)",
+          "major": "MPC",
+          "institution": "MP & EV English Medium School",
+          "graduationYear": "Jun 2022 - Apr 2024",
+          "location": null,
+          "honors": "Percentage: 89.8%"
+        },
+        {
+          "degree": "Secondary School Certificate",
+          "major": null,
+          "institution": "Sri Chaitanya Boon School",
+          "graduationYear": "Mar 2021 - Mar 2022",
+          "location": null,
+          "honors": "Percentage: 92.1%"
+        }
+      ],
+      "workExperience": [
+        {
+          "jobTitle": "MERN Stack Developer Intern",
+          "company": "The Entrepreneurship Network (TEN)",
+          "location": null,
+          "startDate": "May 2026",
+          "endDate": "June 2026",
+          "description": "Completed and deployed a personal portfolio website as part of internship deliverables.",
+          "responsibilities": [
+            "Completed and deployed a personal portfolio website as part of internship deliverables."
+          ],
+          "accomplishments": []
+        }
+      ],
+      "technicalSkills": [
+        "C",
+        "Java",
+        "Python",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Windows",
+        "Linux",
+        "GitHub",
+        "VS Code",
+        "Figma",
+        "Canva",
+        "Vercel"
+      ],
+      "softSkills": [],
+      "projects": [
+        {
+          "title": "NutriFit – Nutrition & Workout Planner",
+          "description": "Developed a nutrition and workout planning web application. Contributed to the Daily Tasks & Consistency Tracking module and frontend UI during a 24-hour hackathon.",
+          "technologies": [],
+          "role": null
+        },
+        {
+          "title": "Jo's Kitchen – Restaurant Website",
+          "description": "Contributed to frontend development and UI design using HTML and CSS in a team-based web project.",
+          "technologies": [
+            "HTML",
+            "CSS"
+          ],
+          "role": null
+        },
+        {
+          "title": "Personal Portfolio Website",
+          "description": "Designed and developed a responsive portfolio website to showcase projects, achievements, and professional experience. Integrated EmailJS for contact functionality and deployed the website using GitHub and Vercel.",
+          "technologies": [
+            "EmailJS",
+            "GitHub",
+            "Vercel"
+          ],
+          "role": null
+        },
+        {
+          "title": "NutriDelight Student Startup Initiative",
+          "description": "Supported startup operations and customer engagement during campus events, serving 400+ customers. Designed promotional creatives and digital content for startup and campus initiatives.",
+          "technologies": [],
+          "role": null
+        },
+        {
+          "title": "Prompt Engineering & Generative AI Program",
+          "description": "Currently undergoing training in prompt engineering and generative AI concepts.",
+          "technologies": [],
+          "role": null
+        }
+      ],
+      "certifications": [],
+      "achievements": [
+        {
+          "title": "1st Place – AI-Powered Poster Design Competition",
+          "description": "Designed and presented an AI-assisted poster on Gender Equality using DALL·E, ChatGPT, and Canva.",
+          "date": "2025"
+        },
+        {
+          "title": "1st Place (Special Prize Category) – Vedic Vision Hackathon",
+          "description": "Awarded for developing NutriFit, a nutrition and workout planning web application.",
+          "date": null
+        },
+        {
+          "title": "3rd Academic Topper – 1st Year Computer Science and Design (CSD)",
+          "description": null,
+          "date": null
+        }
+      ]
+    },
+    "jdParserOutput": {
+      "jobTitle": "AI Product Engineering Intern",
+      "company": null,
+      "employmentType": "Internship",
+      "location": "Remote (India)",
+      "requiredSkills": [
+        "REST APIs",
+        "Prompt Engineering",
+        "Large Language Models (LLMs)",
+        "JSON Handling"
+      ],
+      "preferredSkills": [
+        "RAG (Retrieval-Augmented Generation)",
+        "UI/UX Design",
+        "Prompt Optimization",
+        "AI Evaluation Techniques",
+        "AI Resume Screening System",
+        "Chatbot using LLMs",
+        "Resume Parser",
+        "Recommendation Engine",
+        "Portfolio Website",
+        "Full Stack Web Application",
+        "Hackathon Projects",
+        "AI Productivity Tools",
+        "Internship experience",
+        "Participation in hackathons",
+        "Open-source contributions",
+        "Product thinking",
+        "UI/UX case studies",
+        "Technical blogging",
+        "Canva or Figma experience"
+      ],
+      "requiredExperience": null,
+      "educationRequirements": [
+        "Pursuing B.Tech/B.E. in Computer Science, Information Technology, Artificial Intelligence, or related fields."
+      ],
+      "responsibilities": [
+        "Develop AI-powered web applications using React and FastAPI.",
+        "Design effective prompts for Large Language Models (Gemini/OpenAI).",
+        "Build workflows for resume parsing, document analysis, and recommendation systems.",
+        "Integrate REST APIs using Axios.",
+        "Work with structured JSON responses from LLMs.",
+        "Create responsive UI components using React.",
+        "Debug frontend and backend issues.",
+        "Collaborate using Git and GitHub.",
+        "Document project architecture and technical decisions.",
+        "Participate in code reviews and testing."
+      ],
+      "requiredCertifications": [],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "JavaScript (ES6+)",
+        "React.js",
+        "HTML5 & CSS3",
+        "Git & GitHub",
+        "SQL",
+        "Google Gemini API or OpenAI API",
+        "LangChain or LlamaIndex",
+        "Vite",
+        "Figma",
+        "Docker",
+        "Vector Databases",
+        "Axios",
+        "React",
+        "Gemini",
+        "OpenAI",
+        "Canva"
+      ],
+      "softSkills": [
+        "Strong problem-solving skills",
+        "Excellent communication skills",
+        "Ability to learn new technologies quickly"
+      ],
+      "benefits": [
+        "Stipend: ₹15,000–₹25,000/month",
+        "Hands-on experience building production-ready AI products.",
+        "Mentorship from AI engineers.",
+        "Exposure to Prompt Engineering workflows.",
+        "Experience integrating LLM APIs.",
+        "Opportunity for a Pre-Placement Offer (PPO) based on performance."
+      ]
+    },
+    "workerOutput": {
+      "goal": "Applying for a Specific Job",
+      "candidateFitScore": 68,
+      "careerReadinessScore": null,
+      "matchedSkills": [
+        "Prompt Engineering",
+        "Python",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "GitHub",
+        "Figma",
+        "Canva"
+      ],
+      "missingSkills": [
+        "REST APIs",
+        "Large Language Models (LLMs)",
+        "JSON Handling",
+        "React.js",
+        "FastAPI",
+        "SQL",
+        "Docker",
+        "Axios",
+        "LangChain or LlamaIndex"
+      ],
+      "transferableSkills": [
+        "C",
+        "Java",
+        "MERN Stack Development",
+        "UI/UX Design"
+      ],
+      "experienceMatch": "The candidate has completed a 1-month internship as a MERN Stack Developer Intern, satisfying the preferred qualification for prior internship experience. However, the documented scope was limited to deploying a personal portfolio, lacking exposure to commercial production systems.",
+      "educationMatch": "The candidate's education is a direct match. They are currently pursuing a Bachelor of Technology (B.Tech) in Computer Science and Design with an outstanding academic record (CGPA 9.23/10), which aligns with the required educational background.",
+      "projectMatch": "The candidate's projects provide strong supporting evidence. They won 1st place in the Vedic Vision Hackathon with their NutriFit project, satisfying the preference for hackathon participation. Additionally, their training in Prompt Engineering & Generative AI and their AI-powered poster design project align well with the AI-focused nature of the role.",
+      "overallAnalysis": "The candidate is a highly promising Computer Science student with excellent academic credentials, hackathon achievements, and foundational programming skills (Python, JS). They show strong alignment with the prompt engineering aspects of the role. However, substantial gaps exist in core technical requirements, specifically backend web frameworks (FastAPI), frontend libraries (React.js), REST APIs, and hands-on LLM orchestration tools (LangChain/LlamaIndex).",
+      "confidence": "High"
+    },
+    "recommendationOutput": {
+      "goal": "Applying for a Specific Job",
+      "resumeImprovements": [
+        {
+          "section": "Work Experience",
+          "suggestion": "Expand on the MERN Stack Developer Internship description. Shift the focus from a basic personal portfolio deployment to highlighting any specific frontend/backend integration, component structure, or API data exchanges you handled during development.",
+          "example": "MERN Stack Developer Intern: Developed and deployed a responsive personal portfolio application. Utilized React.js components for UI modularity, managed state, and integrated REST APIs to handle dynamic content delivery."
+        },
+        {
+          "section": "Projects",
+          "suggestion": "Detail the technical stack of the 1st-place winning 'NutriFit' project from the Vedic Vision Hackathon. Explicitly state the programming languages, data communication formats (like JSON), and database structures (SQL/NoSQL) used to achieve the hackathon objectives.",
+          "example": "NutriFit - 1st Place Vedic Vision Hackathon: Designed and built a health optimization tool using Python and JavaScript. Engineered backend routing, implemented JSON handling for user input processing, and optimized UX using Figma designs."
+        },
+        {
+          "section": "Skills",
+          "suggestion": "Restructure the skills section into precise technical categories. Group technologies into clear clusters (e.g., Languages, Frameworks & Libraries, AI & Design Tools) to immediately showcase your versatility and make your transferable MERN stack skills highly visible.",
+          "example": "Languages: Python, JavaScript, C, Java, HTML/CSS | Frameworks & Libraries: React.js (MERN), Node.js | AI & Design: Prompt Engineering, Figma, Canva, Git/GitHub"
+        }
+      ],
+      "skillRecommendations": [
+        {
+          "skill": "FastAPI & REST APIs",
+          "priority": "High",
+          "learningObjective": "Master backend development by building RESTful routing, payload validation, and JSON request/response handling using FastAPI in Python."
+        },
+        {
+          "skill": "LangChain",
+          "priority": "High",
+          "learningObjective": "Learn LLM orchestration, structured prompt chaining, and retrieval-augmented generation (RAG) pipelines using LangChain or LlamaIndex."
+        },
+        {
+          "skill": "React.js & Axios",
+          "priority": "Medium",
+          "learningObjective": "Develop responsive user interfaces and execute asynchronous HTTP requests to backend endpoints using React state hooks and Axios."
+        }
+      ],
+      "projectRecommendations": [
+        {
+          "title": "AI-Powered Document Summarizer API",
+          "description": "Develop a backend application that accepts document uploads, parses the contents, and communicates with a Large Language Model via LangChain to return a structured JSON summary.",
+          "technologies": [
+            "FastAPI",
+            "Python",
+            "LangChain",
+            "JSON Handling"
+          ],
+          "learningOutcome": "Demonstrates mastery of backend API architecture, modern LLM orchestration frameworks, and structured data handling."
+        },
+        {
+          "title": "Interactive LLM Playground Interface",
+          "description": "Build a responsive frontend web application that connects to a backend API to send prompts and render LLM responses dynamically in real-time.",
+          "technologies": [
+            "React.js",
+            "JavaScript",
+            "Axios",
+            "CSS"
+          ],
+          "learningOutcome": "Validates your frontend development capabilities and demonstrates how to consume REST APIs via Axios."
+        },
+        {
+          "title": "Dockerized REST API with SQL Database",
+          "description": "Design a secure microservice that performs CRUD operations on a relational database, packaged fully inside a Docker container for standardized deployment.",
+          "technologies": [
+            "Docker",
+            "SQL",
+            "FastAPI",
+            "PostgreSQL"
+          ],
+          "learningOutcome": "Bridges the Docker and SQL skill gaps by showing proficiency in containerization and relational database design."
+        }
+      ],
+      "certificationRecommendations": [
+        {
+          "name": "LangChain for LLM Application Development",
+          "issuer": "DeepLearning.AI",
+          "value": "Validates hands-on knowledge in building LLM-powered applications, addressing a major tech requirement for AI-focused software engineering roles."
+        },
+        {
+          "name": "Meta Front-End Developer Professional Certificate",
+          "issuer": "Meta (via Coursera)",
+          "value": "Verifies professional-grade React.js, JavaScript, and API integration skills, directly bridging the frontend skill gap."
+        },
+        {
+          "name": "Docker Associate",
+          "issuer": "Docker",
+          "value": "Proves foundational competence in containerization, image creation, and multi-container deployment pipelines."
+        }
+      ],
+      "learningRoadmap": [],
+      "jobRecommendations": [],
+      "overallRecommendation": "To secure this specific position, immediately optimize your resume to highlight your strong foundational coding (Python, JS) and hackathon achievements. Prioritize a rapid technical upgrade in FastAPI, React.js, and LangChain by building a unified mini-project (e.g., an LLM-powered web tool using FastAPI and React). Re-frame your MERN stack internship to focus on engineering complexity rather than just deployment."
+    }
+  },
+  "errors": [],
+  "warnings": [],
+  "summary": "Validation successful. The payload strictly conforms to Goal A (Applying for a Specific Job) structural requirements, displaying correct cross-module goal alignment, logical score consistency, and non-redundant evidence-based recommendations."
+}
+================================================================================
+================================================================================
+{
+  "goal": "Applying for a Specific Job",
+  "candidateFitScore": 68,
+  "careerReadinessScore": null,
+  "matchedSkills": [
+    "Prompt Engineering",
+    "Python",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "GitHub",
+    "Figma",
+    "Canva"
+  ],
+  "missingSkills": [
+    "REST APIs",
+    "Large Language Models (LLMs)",
+    "JSON Handling",
+    "React.js",
+    "FastAPI",
+    "SQL",
+    "Docker",
+    "Axios",
+    "LangChain or LlamaIndex"
+  ],
+  "transferableSkills": [
+    "C",
+    "Java",
+    "MERN Stack Development",
+    "UI/UX Design"
+  ],
+  "overallAnalysis": "The candidate is a highly promising Computer Science student with outstanding academic credentials (9.23 CGPA), award-winning hackathon performance, and solid foundational programming skills in Python and JavaScript. They display strong initial alignment with the prompt engineering aspects of the role. However, significant gaps exist in core technical requirements, specifically with backend frameworks (FastAPI), frontend libraries (React.js), REST APIs, and modern LLM orchestration tools such as LangChain or LlamaIndex.",
+  "resumeImprovements": [
+    {
+      "section": "Work Experience",
+      "suggestion": "Expand on your MERN Stack Developer internship. Shift the focus from simple portfolio deployment to highlighting frontend/backend integration, component modularity, or dynamic API data exchanges handled during development.",
+      "example": "MERN Stack Developer Intern: Developed and deployed a responsive personal portfolio application. Utilized React.js components for UI modularity, managed state, and integrated REST APIs to handle dynamic content delivery."
+    },
+    {
+      "section": "Projects",
+      "suggestion": "Detail the technical stack of your first-place winning 'NutriFit' project from the Vedic Vision Hackathon. Explicitly state the programming languages, communication formats (such as JSON), and database structures (SQL/NoSQL) utilized to achieve the hackathon's objectives.",
+      "example": "NutriFit – 1st Place (Special Prize Category) Vedic Vision Hackathon: Designed and built a health optimization web application using Python and JavaScript. Engineered backend routing, managed JSON data handling for user input processing, and optimized the UI/UX using Figma."
+    },
+    {
+      "section": "Skills",
+      "suggestion": "Categorize your skills section to improve readability. Group technologies into clear clusters (such as Languages, Frameworks & Libraries, and AI & Design Tools) to highlight your versatility and make your transferable MERN stack capabilities immediately visible.",
+      "example": "Languages: Python, JavaScript, C, Java, HTML5/CSS3 | Frameworks & Libraries: React.js (MERN), Node.js | AI & Tools: Prompt Engineering, Figma, Canva, Git/GitHub, Vercel"
+    }
+  ],
+  "skillRecommendations": [
+    {
+      "skill": "FastAPI & REST APIs",
+      "priority": "High",
+      "learningObjective": "Master backend development by building RESTful routes, implementing payload validation, and managing structured JSON request/response pipelines using FastAPI in Python."
+    },
+    {
+      "skill": "LangChain",
+      "priority": "High",
+      "learningObjective": "Learn LLM orchestration, structured prompt chaining, and Retrieval-Augmented Generation (RAG) pipelines using LangChain or LlamaIndex."
+    },
+    {
+      "skill": "React.js & Axios",
+      "priority": "Medium",
+      "learningObjective": "Develop dynamic, responsive user interfaces and manage asynchronous HTTP requests to backend endpoints using React state hooks and Axios."
+    }
+  ],
+  "projectRecommendations": [
+    {
+      "title": "AI-Powered Document Summarizer API",
+      "description": "Build a backend application that accepts document uploads, parses content, and processes it via LangChain to return structured JSON summaries from an LLM.",
+      "technologies": [
+        "FastAPI",
+        "Python",
+        "LangChain",
+        "JSON Handling"
+      ],
+      "learningOutcome": "Demonstrates competence in backend API development, modern LLM orchestration, and structured JSON parsing."
+    },
+    {
+      "title": "Interactive LLM Playground Interface",
+      "description": "Create a responsive frontend web application that connects to an external API to dispatch user prompts and dynamically render real-time LLM responses.",
+      "technologies": [
+        "React.js",
+        "JavaScript",
+        "Axios",
+        "CSS"
+      ],
+      "learningOutcome": "Validates frontend development capabilities and demonstrates proficiency in consuming RESTful APIs using Axios."
+    },
+    {
+      "title": "Dockerized REST API with SQL Database",
+      "description": "Design a secure microservice that performs full CRUD operations on a relational database, packaged within a Docker container for simplified deployment.",
+      "technologies": [
+        "Docker",
+        "SQL",
+        "FastAPI",
+        "PostgreSQL"
+      ],
+      "learningOutcome": "Addresses both Docker and SQL gaps by demonstrating hands-on proficiency in containerization and relational database schema design."
+    }
+  ],
+  "certificationRecommendations": [
+    {
+      "name": "LangChain for LLM Application Development",
+      "issuer": "DeepLearning.AI",
+      "value": "Validates hands-on knowledge of LLM integration, direct prompt chaining, and RAG pipelines, addressing a major technical requirement for AI-focused software engineering roles."
+    },
+    {
+      "name": "Meta Front-End Developer Professional Certificate",
+      "issuer": "Meta (via Coursera)",
+      "value": "Provides rigorous training in professional-grade React.js development, JavaScript coding, and API communication, bridging critical frontend gaps."
+    },
+    {
+      "name": "Docker Associate",
+      "issuer": "Docker",
+      "value": "Proves foundational competence in containerization, microservice architecture, and standard multi-container deployment pipelines."
+    }
+  ],
+  "learningRoadmap": [],
+  "jobRecommendations": [],
+  "overallRecommendation": "To maximize your candidacy for this position, immediately optimize your resume to showcase your foundational programming skills and hackathon victories. Prioritize acquiring FastAPI, React.js, and LangChain proficiency by building a unified project (such as an LLM-driven web tool). Additionally, reframe your MERN stack internship to emphasize technical engineering challenges and backend integration rather than simple application deployment.",
+  "executiveSummary": "The candidate is an academically outstanding Computer Science student with notable hackathon achievements and solid programming fundamentals in Python and JavaScript. While well-aligned with the prompt engineering aspects of the internship, they must bridge key gaps in full-stack web development and LLM framework orchestration. To stand out, they should immediately restructure their resume to emphasize technical depth and build targeted projects using FastAPI, React.js, and LangChain."
+}
+================================================================================
+INFO:     127.0.0.1:58632 - "POST /analyze/job-match HTTP/1.1" 200 OK

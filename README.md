@@ -188,6 +188,4 @@ https://github.com/vedhapoojithaangarapu-bit/AI-Resume-Job-Matching-Platform.git
 Live Application:
 https://ai-resume-job-matching-platform.vercel.app
 
-This repository showcases my personal implementation, experimentation, and technical exploration completed alongside our team's capstone project.
-
 For the complete collaborative submission, including the final deployed application, please visit the official team repository above.

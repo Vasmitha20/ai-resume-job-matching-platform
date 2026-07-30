@@ -1,0 +1,1 @@
+This repository contains my personal implementation and development work completed alongside our team's capstone project. The official submitted version was developed collaboratively by our team. This repository reflects the components I implemented, experimented with, and extended independently while deepening my understanding of the system architecture.

@@ -2,7 +2,7 @@
 
 > **Personal Learning & Development Repository**
 
-This repository showcases my personal implementation and development work completed alongside our team's capstone project.
+This repository showcases my individual contributions, independent implementation, and technical exploration completed alongside our team's capstone project.
 
 While the official capstone project was designed and submitted collaboratively by our team, this repository focuses on the components I personally implemented, experimented with, and extended to deepen my understanding of AI application development, prompt engineering, and full-stack architecture.
 

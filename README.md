@@ -168,7 +168,7 @@ Through this project, I gained practical experience with:
 * Support for DOCX resumes
 * Interview preparation recommendations
 * AI chat assistant for career guidance
-* Enhanced analytics and visualizations
+* Enhanced analytics & visualizations
 
 ---
 

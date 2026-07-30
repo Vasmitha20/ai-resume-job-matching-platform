@@ -49,8 +49,8 @@ Do not invent quantified achievements, collaborations, responsibilities, or meas
 6. OUTPUT REQUIREMENTS & JSON SCHEMA
 Generate your recommendations and output them strictly according to the following JSON structure.
 Goal-Specific Output:
-- Return `learningRoadmap` as an empty array (`[]`) when the active goal is **Applying for a Specific Job (Goal A)**.
-- Return `jobRecommendations` as an empty array (`[]`) when the active goal is **Applying for a Specific Job (Goal A)**.
+Goal A:
+Generate a concise, job-specific learning roadmap and up to 3 relevant job recommendations that help the candidate become a stronger fit for the uploaded job description.
 {
   "goal": "Applying for a Specific Job | Preparing for my Dream Career",
   "resumeImprovements": [

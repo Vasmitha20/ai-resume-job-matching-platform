@@ -532,8 +532,10 @@
 }
 
 .roadmap-step {
-  padding-top: 16px;
-  border-top: 1px solid var(--color-border);
+  padding: 18px;
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  background: var(--color-surface);
 }
 
 .roadmap-step-index {
@@ -550,10 +552,32 @@
   margin-bottom: 8px;
 }
 
-.roadmap-step-description {
+.roadmap-step-focus {
+  margin: 10px 0;
   font-size: 13px;
   line-height: 1.55;
   color: var(--color-ink-soft);
+}
+
+.roadmap-actions {
+  margin: 12px 0;
+  padding-left: 18px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--color-ink-soft);
+}
+
+.roadmap-actions li {
+  margin-bottom: 6px;
+}
+
+.roadmap-milestone {
+  margin-top: 12px;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--color-ink-soft);
+  padding-top: 10px;
+  border-top: 1px dashed var(--color-border);
 }
 
 @media (max-width: 720px) {
@@ -640,67 +664,16 @@
   padding: 24px;
 }
 
-.job-role-tile-top {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 12px;
-  margin-bottom: 6px;
-}
-
 .job-role-title {
   font-size: 17px;
   font-weight: 700;
+  margin-bottom: 10px;
 }
 
-.job-role-percent {
-  font-size: 18px;
-  font-weight: 800;
-  white-space: nowrap;
-}
-
-.job-role-fit {
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--color-muted);
-  margin-bottom: 16px;
-}
-
-.job-role-skills {
-  list-style: none;
-  margin: 0 0 16px;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.job-role-skill-chip {
-  font-size: 12px;
-  font-weight: 600;
-  border: 1px solid var(--color-border);
-  border-radius: 999px;
-  padding: 6px 12px;
+.job-role-relevance {
+  font-size: 13px;
+  line-height: 1.6;
   color: var(--color-ink-soft);
-  background: var(--color-bg);
-}
-
-.job-role-meta {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 12px;
-  color: var(--color-ink-soft);
-}
-
-.job-role-meta-dot {
-  width: 3px;
-  height: 3px;
-  border-radius: 50%;
-  background: var(--color-muted);
-  display: inline-block;
 }
 
 @media (max-width: 720px) {

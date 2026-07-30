@@ -73,7 +73,9 @@ function CompatibilityScoreCard({
   atsScore,
   confidence,
 }) {
-  const label = matchLabel ?? getMatchTier(score)
+  const label =
+  matchLabel ??
+  `${getMatchTier(score)} (${score}% Match)`
 
   return (
     <div className="result-card score-card">
@@ -92,36 +94,9 @@ function CompatibilityScoreCard({
         <div className="score-card-details">
           <h3 className="score-card-headline">{headline}</h3>
           <p className="score-card-summary">{summary}</p>
-
-          {(experienceScore !== undefined || skillsScore !== undefined) && (
-            <div className="score-card-pills">
-              {experienceScore !== undefined && (
-                <span className="score-pill">Experience {experienceScore}%</span>
-              )}
-              {skillsScore !== undefined && (
-                <span className="score-pill">Skills {skillsScore}%</span>
-              )}
-            </div>
-          )}
         </div>
       </div>
 
-      {(atsScore !== undefined || confidence) && (
-        <div className="score-card-footer">
-          {atsScore !== undefined && (
-            <div className="score-card-stat">
-              <p className="score-card-stat-label">ATS score</p>
-              <p className="score-card-stat-value">{atsScore}%</p>
-            </div>
-          )}
-          {confidence && (
-            <div className="score-card-stat">
-              <p className="score-card-stat-label">Confidence</p>
-              <p className="score-card-stat-value">{confidence}</p>
-            </div>
-          )}
-        </div>
-      )}
     </div>
   )
 }

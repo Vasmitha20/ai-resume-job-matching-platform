@@ -1,13 +1,10 @@
-// ResumeSuggestionsCard
-//
-// Expected props:
-//   suggestions   array of strings
-
 function ResumeSuggestionsCard({ suggestions = [] }) {
-  const resumeSuggestions =
-  {resumeSuggestions}.map(item =>
-    `${item.section}: ${item.suggestion}`
-  )
+
+  const formattedSuggestions = suggestions.map(item =>
+  `${item.section}: ${item.suggestion}${
+    item.example ? ` (Example: ${item.example})` : ""
+  }`
+)
   return (
     <div className="result-card suggestions-card">
       <div className="result-card-top">
@@ -22,7 +19,7 @@ function ResumeSuggestionsCard({ suggestions = [] }) {
         </p>
       ) : (
         <ol className="suggestions-list">
-          {suggestions.map((suggestion, index) => (
+          {formattedSuggestions.map((suggestion, index) => (
             <li className="suggestion-item" key={suggestion}>
               <span className="suggestion-index">
                 {String(index + 1).padStart(2, '0')}

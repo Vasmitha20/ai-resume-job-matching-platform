@@ -1,0 +1,659 @@
+{
+  "candidateName": "Vasmitha Mallapareddy",
+  "contactInfo": {
+    "email": "mvasmitha07@gmail.com",
+    "phone": "+91 9390549660",
+    "location": null,
+    "links": [
+      {
+        "label": "LinkedIn",
+        "url": "linkedin.com/in/vasmitha-mallapareddy"
+      },
+      {
+        "label": "Portfolio",
+        "url": "vasmitha-portfolio.vercel.app"
+      }
+    ]
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Technology (B.Tech)",
+      "major": "Computer Science and Design",
+      "institution": "Sagi Rama Krishnam Raju Engineering College (SRKR)",
+      "graduationYear": "Present",
+      "location": null,
+      "honors": "CGPA: 9.23/10"
+    },
+    {
+      "degree": "Higher Secondary Certificate (MPC)",
+      "major": "MPC",
+      "institution": "MP & EV English Medium School",
+      "graduationYear": "Apr 2024",
+      "location": null,
+      "honors": "Percentage: 89.8%"
+    },
+    {
+      "degree": "Secondary School Certificate",
+      "major": null,
+      "institution": "Sri Chaitanya Boon School",
+      "graduationYear": "Mar 2022",
+      "location": null,
+      "honors": "Percentage: 92.1%"
+    }
+  ],
+  "workExperience": [
+    {
+      "jobTitle": "MERN Stack Developer Intern",
+      "company": "The Entrepreneurship Network (TEN)",
+      "location": null,
+      "startDate": "May 2026",
+      "endDate": "June 2026",
+      "description": null,
+      "responsibilities": [
+        "Completed and deployed a personal portfolio website as part of internship deliverables."
+      ],
+      "accomplishments": []
+    }
+  ],
+  "technicalSkills": [
+    "C",
+    "Java",
+    "Python",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Windows",
+    "Linux",
+    "GitHub",
+    "VS Code",
+    "Figma",
+    "Canva",
+    "Vercel"
+  ],
+  "softSkills": [],
+  "projects": [
+    {
+      "title": "NutriFit – Nutrition & Workout Planner",
+      "description": "Developed a nutrition and workout planning web application. Contributed to the Daily Tasks & Consistency Tracking module and frontend UI during a 24-hour hackathon.",
+      "technologies": [],
+      "role": null
+    },
+    {
+      "title": "Jo's Kitchen – Restaurant Website",
+      "description": "Contributed to frontend development and UI design using HTML and CSS in a team-based web project.",
+      "technologies": [
+        "HTML",
+        "CSS"
+      ],
+      "role": null
+    },
+    {
+      "title": "Personal Portfolio Website",
+      "description": "Designed and developed a responsive portfolio website to showcase projects, achievements, and professional experience. Integrated EmailJS for contact functionality and deployed the website using GitHub and Vercel.",
+      "technologies": [
+        "EmailJS",
+        "GitHub",
+        "Vercel"
+      ],
+      "role": null
+    },
+    {
+      "title": "NutriDelight Student Startup Initiative",
+      "description": "Supported startup operations and customer engagement during campus events, serving 400+ customers. Designed promotional creatives and digital content for startup and campus initiatives.",
+      "technologies": [],
+      "role": null
+    },
+    {
+      "title": "Prompt Engineering & Generative AI Program",
+      "description": "Currently undergoing training in prompt engineering and generative AI concepts.",
+      "technologies": [],
+      "role": null
+    }
+  ],
+  "certifications": [],
+  "achievements": [
+    {
+      "title": "1st Place – AI-Powered Poster Design Competition (2025)",
+      "description": "Designed and presented an AI-assisted poster on Gender Equality using DALL·E, ChatGPT, and Canva.",
+      "date": "2025"
+    },
+    {
+      "title": "1st Place (Special Prize Category) – Vedic Vision Hackathon",
+      "description": "Awarded for developing NutriFit, a nutrition and workout planning web application.",
+      "date": null
+    },
+    {
+      "title": "3rd Academic Topper – 1st Year Computer Science and Design (CSD)",
+      "description": null,
+      "date": null
+    }
+  ]
+}
+================================================================================
+================================================================================
+{
+"jobTitle": "Computer Science & Design student",
+"company": null,
+"employmentType": "remote, part-time contract",
+"location": "Remote",
+"requiredSkills": [
+"building with Python",
+"integrating LLM APIs",
+"designing clean user flows",
+"strong CS fundamentals"
+],
+"preferredSkills": [
+"basic prompt engineering techniques"
+],
+"requiredExperience": "hands-on experience building with Python, integrating LLM APIs (like OpenAI or Gemini), and designing clean user flows.",
+"educationRequirements": [
+"Computer Science & Design student"
+],
+"responsibilities": [
+"help us prototype and launch our next-gen AI interface",
+"bridge the gap between complex AI logic and intuitive user experiences"
+],
+"requiredCertifications": [],
+"technologies": [
+"Python",
+"LLM APIs",
+"OpenAI",
+"Gemini",
+"LangChain",
+"vector databases"
+],
+"softSkills": [
+"passionate",
+"curiosity",
+"creative problem solver"
+],
+"benefits": []
+}
+================================================================================
+================================================================================
+{
+  "goal": "Applying for a Specific Job",
+  "candidateFitScore": 65,
+  "careerReadinessScore": null,
+  "matchedSkills": [
+    "Python",
+    "basic prompt engineering techniques"
+  ],
+  "missingSkills": [
+    "integrating LLM APIs",
+    "OpenAI",
+    "Gemini",
+    "LangChain",
+    "vector databases"
+  ],
+  "transferableSkills": [
+    "designing clean user flows",
+    "strong CS fundamentals"
+  ],
+  "experienceMatch": "The candidate's work experience is limited to a brief 1-month internship as a MERN Stack Developer Intern (noted in the source data as May-June 2026). This internship does not document hands-on experience with Python or LLM APIs. However, the candidate has practical hands-on experience through hackathons and frontend web projects, which partially aligns with the hands-on requirements, though a gap remains regarding commercial or production-level Python and API development.",
+  "educationMatch": "The candidate's education is an exact match for the role. The job description specifically requests a 'Computer Science & Design student,' and the candidate is currently pursuing a Bachelor of Technology in Computer Science and Design with an exceptional CGPA of 9.23/10.",
+  "projectMatch": "The candidate's projects provide strong supporting evidence for several requirements. The 'NutriFit' and 'Jo's Kitchen' projects demonstrate UI development and collaborative team environments, supporting the 'designing clean user flows' requirement. Additionally, participation in the 'Prompt Engineering & Generative AI Program' and winning the 'AI-Powered Poster Design Competition' support the preferred requirement for prompt engineering.",
+  "overallAnalysis": "The candidate is an exceptionally strong academic match, precisely fitting the target profile of a Computer Science & Design student with high-caliber academic performance. She possesses key foundational requirements such as Python knowledge, UI/user flow capabilities (evidenced by Figma and frontend projects), and preferred skills in prompt engineering. However, there is a significant technical gap in backend AI integration, specifically regarding LLM APIs (OpenAI/Gemini), LangChain, and vector databases, as well as a lack of formal professional experience in these areas.",
+  "confidence": "High"
+}
+================================================================================
+================================================================================
+{
+  "goal": "Applying for a Specific Job",
+  "resumeImprovements": [
+    {
+      "section": "Technical Skills",
+      "suggestion": "Create a dedicated 'Generative AI & API Integration' subsection to demonstrate active development in missing core technologies, positioning Python and prompt engineering alongside ongoing learning of LLM APIs and LangChain.",
+      "example": "AI & API Technologies: Python, LangChain (Familiar), OpenAI API, Gemini API, Vector Databases (ChromaDB), Advanced Prompt Engineering"
+    },
+    {
+      "section": "Projects",
+      "suggestion": "Incorporate a highly targeted LLM API project that uses LangChain and Python, placing it at the top of your projects section to immediately capture the recruiter's attention and offset the lack of commercial AI experience.",
+      "example": "RAG-Based Document Assistant: Developed a Python-based Q&A application integrating LangChain and OpenAI API to query vector embeddings stored in ChromaDB, optimizing prompt-response latency by 15%."
+    },
+    {
+      "section": "Professional Experience",
+      "suggestion": "Quantify and reframe the MERN Stack Developer Intern experience to highlight API design, data flow orchestration, and clean architecture, demonstrating solid CS fundamentals that translate to LLM integration tasks.",
+      "example": "MERN Stack Developer Intern: Engineered and optimized RESTful API endpoints, ensuring clean user flows and efficient data retrieval, establishing a foundational understanding of API orchestration directly transferable to LLM integrations."
+    }
+  ],
+  "skillRecommendations": [
+    {
+      "skill": "LLM API Integration (OpenAI & Gemini)",
+      "priority": "High",
+      "learningObjective": "Master executing API calls, configuring model parameters (temperature, max tokens), secure key management, and parsing JSON responses using Python."
+    },
+    {
+      "skill": "LangChain Framework",
+      "priority": "High",
+      "learningObjective": "Learn schema prompt templates, chain-of-thought orchestration, memory management, and retrieval chains for context-aware applications."
+    },
+    {
+      "skill": "Vector Databases (ChromaDB / Pinecone)",
+      "priority": "Medium",
+      "learningObjective": "Understand text chunking, generating embeddings, indexing vector spaces, and executing semantic similarity searches."
+    }
+  ],
+  "projectRecommendations": [
+    {
+      "title": "Document RAG Query Engine",
+      "description": "Build a Python CLI or web-based utility that accepts PDF documents, chunks the text, stores the embeddings in ChromaDB, and allows users to query the content using LangChain and OpenAI's GPT API.",
+      "technologies": [
+        "Python",
+        "LangChain",
+        "OpenAI API",
+        "ChromaDB"
+      ],
+      "learningOutcome": "Demonstrates end-to-end implementation of a Retrieval-Augmented Generation (RAG) system, bridging the gap in backend AI integration, vector databases, and LangChain."
+    },
+    {
+      "title": "Dual-API Comparative Playground",
+      "description": "Design a clean, single-page web interface that allows users to submit prompts and view side-by-side, structured evaluations of responses from both OpenAI and Gemini APIs.",
+      "technologies": [
+        "Python",
+        "OpenAI API",
+        "Gemini API",
+        "Figma"
+      ],
+      "learningOutcome": "Leverages existing clean user flow design capabilities while directly showcasing dual-API integration proficiency."
+    }
+  ],
+  "certificationRecommendations": [
+    {
+      "name": "LangChain for LLM Application Development",
+      "issuer": "DeepLearning.AI",
+      "value": "Provides direct, industry-recognized validation of the candidate's ability to chain LLM components and build functional generative AI applications in Python."
+    },
+    {
+      "name": "Google Cloud Generative AI Fundamentals",
+      "issuer": "Google Cloud",
+      "value": "Validates foundational expertise in large language models and Google's Gemini ecosystem, directly matching the target role's tooling preferences."
+    }
+  ],
+  "learningRoadmap": [],
+  "jobRecommendations": [],
+  "overallRecommendation": "Your exceptional academic background in Computer Science & Design (9.23 CGPA) and solid foundations in Python, UI design, and basic prompt engineering make you an outstanding candidate. To secure this specific role, prioritize bridging the practical AI implementation gap immediately. Build one hands-on RAG-based Python project, obtain a short certification in LangChain/LLMs, and update your resume to prominently display these targeted additions."
+}
+================================================================================
+================================================================================
+{
+  "isValid": true,
+  "validationStatus": "WARNING",
+  "correctedOutput": {
+    "resumeParserOutput": {
+      "candidateName": "Vasmitha Mallapareddy",
+      "contactInfo": {
+        "email": "mvasmitha07@gmail.com",
+        "phone": "+91 9390549660",
+        "location": null,
+        "links": [
+          {
+            "label": "LinkedIn",
+            "url": "linkedin.com/in/vasmitha-mallapareddy"
+          },
+          {
+            "label": "Portfolio",
+            "url": "vasmitha-portfolio.vercel.app"
+          }
+        ]
+      },
+      "education": [
+        {
+          "degree": "Bachelor of Technology (B.Tech)",
+          "major": "Computer Science and Design",
+          "institution": "Sagi Rama Krishnam Raju Engineering College (SRKR)",
+          "graduationYear": "Present",
+          "location": null,
+          "honors": "CGPA: 9.23/10"
+        },
+        {
+          "degree": "Higher Secondary Certificate (MPC)",
+          "major": "MPC",
+          "institution": "MP & EV English Medium School",
+          "graduationYear": "Apr 2024",
+          "location": null,
+          "honors": "Percentage: 89.8%"
+        },
+        {
+          "degree": "Secondary School Certificate",
+          "major": null,
+          "institution": "Sri Chaitanya Boon School",
+          "graduationYear": "Mar 2022",
+          "location": null,
+          "honors": "Percentage: 92.1%"
+        }
+      ],
+      "workExperience": [
+        {
+          "jobTitle": "MERN Stack Developer Intern",
+          "company": "The Entrepreneurship Network (TEN)",
+          "location": null,
+          "startDate": "May 2026",
+          "endDate": "June 2026",
+          "description": null,
+          "responsibilities": [
+            "Completed and deployed a personal portfolio website as part of internship deliverables."
+          ],
+          "accomplishments": []
+        }
+      ],
+      "technicalSkills": [
+        "C",
+        "Java",
+        "Python",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Windows",
+        "Linux",
+        "GitHub",
+        "VS Code",
+        "Figma",
+        "Canva",
+        "Vercel"
+      ],
+      "softSkills": [],
+      "projects": [
+        {
+          "title": "NutriFit – Nutrition & Workout Planner",
+          "description": "Developed a nutrition and workout planning web application. Contributed to the Daily Tasks & Consistency Tracking module and frontend UI during a 24-hour hackathon.",
+          "technologies": [],
+          "role": null
+        },
+        {
+          "title": "Jo's Kitchen – Restaurant Website",
+          "description": "Contributed to frontend development and UI design using HTML and CSS in a team-based web project.",
+          "technologies": [
+            "HTML",
+            "CSS"
+          ],
+          "role": null
+        },
+        {
+          "title": "Personal Portfolio Website",
+          "description": "Designed and developed a responsive portfolio website to showcase projects, achievements, and professional experience. Integrated EmailJS for contact functionality and deployed the website using GitHub and Vercel.",
+          "technologies": [
+            "EmailJS",
+            "GitHub",
+            "Vercel"
+          ],
+          "role": null
+        },
+        {
+          "title": "NutriDelight Student Startup Initiative",
+          "description": "Supported startup operations and customer engagement during campus events, serving 400+ customers. Designed promotional creatives and digital content for startup and campus initiatives.",
+          "technologies": [],
+          "role": null
+        },
+        {
+          "title": "Prompt Engineering & Generative AI Program",
+          "description": "Currently undergoing training in prompt engineering and generative AI concepts.",
+          "technologies": [],
+          "role": null
+        }
+      ],
+      "certifications": [],
+      "achievements": [
+        {
+          "title": "1st Place – AI-Powered Poster Design Competition (2025)",
+          "description": "Designed and presented an AI-assisted poster on Gender Equality using DALL·E, ChatGPT, and Canva.",
+          "date": "2025"
+        },
+        {
+          "title": "1st Place (Special Prize Category) – Vedic Vision Hackathon",
+          "description": "Awarded for developing NutriFit, a nutrition and workout planning web application.",
+          "date": null
+        },
+        {
+          "title": "3rd Academic Topper – 1st Year Computer Science and Design (CSD)",
+          "description": null,
+          "date": null
+        }
+      ]
+    },
+    "jdParserOutput": {
+      "jobTitle": "Computer Science & Design student",
+      "company": null,
+      "employmentType": "remote, part-time contract",
+      "location": "Remote",
+      "requiredSkills": [
+        "building with Python",
+        "integrating LLM APIs",
+        "designing clean user flows",
+        "strong CS fundamentals"
+      ],
+      "preferredSkills": [
+        "basic prompt engineering techniques"
+      ],
+      "requiredExperience": "hands-on experience building with Python, integrating LLM APIs (like OpenAI or Gemini), and designing clean user flows.",
+      "educationRequirements": [
+        "Computer Science & Design student"
+      ],
+      "responsibilities": [
+        "help us prototype and launch our next-gen AI interface",
+        "bridge the gap between complex AI logic and intuitive user experiences"
+      ],
+      "requiredCertifications": [],
+      "technologies": [
+        "Python",
+        "LLM APIs",
+        "OpenAI",
+        "Gemini",
+        "LangChain",
+        "vector databases"
+      ],
+      "softSkills": [
+        "passionate",
+        "curiosity",
+        "creative problem solver"
+      ],
+      "benefits": []
+    },
+    "workerOutput": {
+      "goal": "Applying for a Specific Job",
+      "candidateFitScore": 65,
+      "careerReadinessScore": null,
+      "matchedSkills": [
+        "Python",
+        "basic prompt engineering techniques"
+      ],
+      "missingSkills": [
+        "integrating LLM APIs",
+        "OpenAI",
+        "Gemini",
+        "LangChain",
+        "vector databases"
+      ],
+      "transferableSkills": [
+        "designing clean user flows",
+        "strong CS fundamentals"
+      ],
+      "experienceMatch": "The candidate's work experience is limited to a brief 1-month internship as a MERN Stack Developer Intern (noted in the source data as May-June 2026). This internship does not document hands-on experience with Python or LLM APIs. However, the candidate has practical hands-on experience through hackathons and frontend web projects, which partially aligns with the hands-on requirements, though a gap remains regarding commercial or production-level Python and API development.",
+      "educationMatch": "The candidate's education is an exact match for the role. The job description specifically requests a 'Computer Science & Design student,' and the candidate is currently pursuing a Bachelor of Technology in Computer Science and Design with an exceptional CGPA of 9.23/10.",
+      "projectMatch": "The candidate's projects provide strong supporting evidence for several requirements. The 'NutriFit' and 'Jo's Kitchen' projects demonstrate UI development and collaborative team environments, supporting the 'designing clean user flows' requirement. Additionally, participation in the 'Prompt Engineering & Generative AI Program' and winning the 'AI-Powered Poster Design Competition' support the preferred requirement for prompt engineering.",
+      "overallAnalysis": "The candidate is an exceptionally strong academic match, precisely fitting the target profile of a Computer Science & Design student with high-caliber academic performance. She possesses key foundational requirements such as Python knowledge, UI/user flow capabilities (evidenced by Figma and frontend projects), and preferred skills in prompt engineering. However, there is a significant technical gap in backend AI integration, specifically regarding LLM APIs (OpenAI/Gemini), LangChain, and vector databases, as well as a lack of formal professional experience in these areas.",
+      "confidence": "High"
+    },
+    "recommendationOutput": {
+      "goal": "Applying for a Specific Job",
+      "resumeImprovements": [
+        {
+          "section": "Technical Skills",
+          "suggestion": "Create a dedicated 'Generative AI & API Integration' subsection to demonstrate active development in missing core technologies, positioning Python and prompt engineering alongside ongoing learning of LLM APIs and LangChain.",
+          "example": "AI & API Technologies: Python, LangChain (Familiar), OpenAI API, Gemini API, Vector Databases (ChromaDB), Advanced Prompt Engineering"
+        },
+        {
+          "section": "Projects",
+          "suggestion": "Incorporate a highly targeted LLM API project that uses LangChain and Python, placing it at the top of your projects section to immediately capture the recruiter's attention and offset the lack of commercial AI experience.",
+          "example": "RAG-Based Document Assistant: Developed a Python-based Q&A application integrating LangChain and OpenAI API to query vector embeddings stored in ChromaDB, optimizing prompt-response latency by 15%."
+        },
+        {
+          "section": "Professional Experience",
+          "suggestion": "Quantify and reframe the MERN Stack Developer Intern experience to highlight API design, data flow orchestration, and clean architecture, demonstrating solid CS fundamentals that translate to LLM integration tasks.",
+          "example": "MERN Stack Developer Intern: Engineered and optimized RESTful API endpoints, ensuring clean user flows and efficient data retrieval, establishing a foundational understanding of API orchestration directly transferable to LLM integrations."
+        }
+      ],
+      "skillRecommendations": [
+        {
+          "skill": "LLM API Integration (OpenAI & Gemini)",
+          "priority": "High",
+          "learningObjective": "Master executing API calls, configuring model parameters (temperature, max tokens), secure key management, and parsing JSON responses using Python."
+        },
+        {
+          "skill": "LangChain Framework",
+          "priority": "High",
+          "learningObjective": "Learn schema prompt templates, chain-of-thought orchestration, memory management, and retrieval chains for context-aware applications."
+        },
+        {
+          "skill": "Vector Databases (ChromaDB / Pinecone)",
+          "priority": "Medium",
+          "learningObjective": "Understand text chunking, generating embeddings, indexing vector spaces, and executing semantic similarity searches."
+        }
+      ],
+      "projectRecommendations": [
+        {
+          "title": "Document RAG Query Engine",
+          "description": "Build a Python CLI or web-based utility that accepts PDF documents, chunks the text, stores the embeddings in ChromaDB, and allows users to query the content using LangChain and OpenAI's GPT API.",
+          "technologies": [
+            "Python",
+            "LangChain",
+            "OpenAI API",
+            "ChromaDB"
+          ],
+          "learningOutcome": "Demonstrates end-to-end implementation of a Retrieval-Augmented Generation (RAG) system, bridging the gap in backend AI integration, vector databases, and LangChain."
+        },
+        {
+          "title": "Dual-API Comparative Playground",
+          "description": "Design a clean, single-page web interface that allows users to submit prompts and view side-by-side, structured evaluations of responses from both OpenAI and Gemini APIs.",
+          "technologies": [
+            "Python",
+            "OpenAI API",
+            "Gemini API",
+            "Figma"
+          ],
+          "learningOutcome": "Leverages existing clean user flow design capabilities while directly showcasing dual-API integration proficiency."
+        }
+      ],
+      "certificationRecommendations": [
+        {
+          "name": "LangChain for LLM Application Development",
+          "issuer": "DeepLearning.AI",
+          "value": "Provides direct, industry-recognized validation of the candidate's ability to chain LLM components and build functional generative AI applications in Python."
+        },
+        {
+          "name": "Google Cloud Generative AI Fundamentals",
+          "issuer": "Google Cloud",
+          "value": "Validates foundational expertise in large language models and Google's Gemini ecosystem, directly matching the target role's tooling preferences."
+        }
+      ],
+      "learningRoadmap": [],
+      "jobRecommendations": [],
+      "overallRecommendation": "Your exceptional academic background in Computer Science & Design (9.23 CGPA) and solid foundations in Python, UI design, and basic prompt engineering make you an outstanding candidate. To secure this specific role, prioritize bridging the practical AI implementation gap immediately. Build one hands-on RAG-based Python project, obtain a short certification in LangChain/LLMs, and update your resume to prominently display these targeted additions."
+    }
+  },
+  "errors": [],
+  "warnings": [
+    {
+      "field": "resumeParserOutput.workExperience[0].startDate",
+      "message": "The candidate's internship dates are listed as 'May 2026' to 'June 2026'. While parsed accurately based on the source document text, this represents a futuristic date/typographical error in the candidate's resume."
+    }
+  ],
+  "summary": "Validation successful with no blocking errors. The outputs across all modules are highly consistent and strictly conform to the requirements of Goal A (Applying for a Specific Job). Active goal mappings, score formats (candidateFitScore = 65, careerReadinessScore = null), and empty arrays for learning roadmaps and job recommendations are strictly compliant."
+}
+================================================================================
+================================================================================
+{
+  "goal": "Applying for a Specific Job",
+  "candidateFitScore": 65,
+  "careerReadinessScore": null,
+  "matchedSkills": [
+    "Python",
+    "basic prompt engineering techniques"
+  ],
+  "missingSkills": [
+    "integrating LLM APIs",
+    "OpenAI",
+    "Gemini",
+    "LangChain",
+    "vector databases"
+  ],
+  "transferableSkills": [
+    "designing clean user flows",
+    "strong CS fundamentals"
+  ],
+  "overallAnalysis": "The candidate is an exceptionally strong academic match, precisely fitting the target profile of a Computer Science & Design student with high-caliber academic performance. She possesses key foundational requirements such as Python knowledge, user interface and flow design capabilities (evidenced by Figma and frontend projects), and preferred skills in prompt engineering. However, there is a technical gap in backend AI integration, specifically regarding LLM APIs (OpenAI/Gemini), LangChain, and vector databases, as well as a lack of formal professional experience in these areas.",
+  "resumeImprovements": [
+    {
+      "section": "Technical Skills",
+      "suggestion": "Create a dedicated 'Generative AI & API Integration' subsection to demonstrate active development in missing core technologies, positioning Python and prompt engineering alongside ongoing learning of LLM APIs and LangChain.",
+      "example": "AI & API Technologies: Python, LangChain (Familiar), OpenAI API, Gemini API, Vector Databases (ChromaDB), Advanced Prompt Engineering"
+    },
+    {
+      "section": "Projects",
+      "suggestion": "Incorporate a highly targeted LLM API project that uses LangChain and Python, placing it at the top of your projects section to immediately capture the recruiter's attention and offset the lack of commercial AI experience.",
+      "example": "RAG-Based Document Assistant: Developed a Python-based Q&A application integrating LangChain and OpenAI API to query vector embeddings stored in ChromaDB, optimizing prompt-response latency by 15%."
+    },
+    {
+      "section": "Professional Experience",
+      "suggestion": "Quantify and reframe the MERN Stack Developer Intern experience to highlight API design, data flow orchestration, and clean architecture, demonstrating solid CS fundamentals that translate to LLM integration tasks.",
+      "example": "MERN Stack Developer Intern: Engineered and optimized RESTful API endpoints, ensuring clean user flows and efficient data retrieval, establishing a foundational understanding of API orchestration directly transferable to LLM integrations."
+    }
+  ],
+  "skillRecommendations": [
+    {
+      "skill": "LLM API Integration (OpenAI & Gemini)",
+      "priority": "High",
+      "learningObjective": "Master executing API calls, configuring model parameters (temperature, max tokens), secure key management, and parsing JSON responses using Python."
+    },
+    {
+      "skill": "LangChain Framework",
+      "priority": "High",
+      "learningObjective": "Learn schema prompt templates, chain-of-thought orchestration, memory management, and retrieval chains for context-aware applications."
+    },
+    {
+      "skill": "Vector Databases (ChromaDB / Pinecone)",
+      "priority": "Medium",
+      "learningObjective": "Understand text chunking, generating embeddings, indexing vector spaces, and executing semantic similarity searches."
+    }
+  ],
+  "projectRecommendations": [
+    {
+      "title": "Document RAG Query Engine",
+      "description": "Build a Python CLI or web-based utility that accepts PDF documents, chunks the text, stores the embeddings in ChromaDB, and allows users to query the content using LangChain and OpenAI's GPT API.",
+      "technologies": [
+        "Python",
+        "LangChain",
+        "OpenAI API",
+        "ChromaDB"
+      ],
+      "learningOutcome": "Demonstrates end-to-end implementation of a Retrieval-Augmented Generation (RAG) system, bridging the gap in backend AI integration, vector databases, and LangChain."
+    },
+    {
+      "title": "Dual-API Comparative Playground",
+      "description": "Design a clean, single-page web interface that allows users to submit prompts and view side-by-side, structured evaluations of responses from both OpenAI and Gemini APIs.",
+      "technologies": [
+        "Python",
+        "OpenAI API",
+        "Gemini API",
+        "Figma"
+      ],
+      "learningOutcome": "Leverages existing clean user flow design capabilities while directly showcasing dual-API integration proficiency."
+    }
+  ],
+  "certificationRecommendations": [
+    {
+      "name": "LangChain for LLM Application Development",
+      "issuer": "DeepLearning.AI",
+      "value": "Provides direct, industry-recognized validation of the candidate's ability to chain LLM components and build functional generative AI applications in Python."
+    },
+    {
+      "name": "Google Cloud Generative AI Fundamentals",
+      "issuer": "Google Cloud",
+      "value": "Validates foundational expertise in large language models and Google's Gemini ecosystem, directly matching the target role's tooling preferences."
+    }
+  ],
+  "learningRoadmap": [],
+  "jobRecommendations": [],
+  "overallRecommendation": "Your exceptional academic background in Computer Science & Design (9.23 CGPA) and solid foundations in Python, UI design, and basic prompt engineering make you an outstanding candidate. To secure this specific role, prioritize bridging the practical AI implementation gap immediately. Build one hands-on RAG-based Python project, obtain a short certification in LangChain/LLMs, and update your resume to prominently display these targeted additions.",
+  "executiveSummary": "The candidate is an exceptional academic fit for the Computer Science & Design student role, demonstrating strong foundational capabilities in Python, user interface design, and basic prompt engineering. While she exhibits excellent potential, targeted improvements in LLM API integration, LangChain, and vector databases are necessary to bridge existing technical gaps. Undertaking a practical, hands-on RAG project and pursuing key industry certifications will significantly elevate her candidate compatibility."
+}

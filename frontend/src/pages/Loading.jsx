@@ -78,7 +78,8 @@ function Loading() {
           headers: { 'Content-Type': 'multipart/form-data' },
           signal: controller.signal,
         })
-        console.log("Backend responded:", response.data);
+        console.log("Backend response:", response.data);
+        
         console.log("Navigating to Results...");
         navigate('/results', { state: response.data })
       } catch (error) {

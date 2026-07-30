@@ -66,51 +66,62 @@ import '../styles/Results.css'
 function Results() {
   const { state } = useLocation()
   const navigate = useNavigate()
-  const data = state ?? null
-  const experienceInsights = [
-    {
-        type: "strength",
-        title: "Experience",
-        description: data.experienceMatch
-    },
-    {
-        type: "strength",
-        title: "Education",
-        description: data.educationMatch
-    },
-    {
-        type: "strength",
-        title: "Projects",
-        description: data.projectMatch
-    }
-]
+  
+  const report = state?.report ?? null
+
+  console.log("Results data:", report)
+
   useEffect(() => {
-    if (!data) {
+    if (!report) {
       navigate('/', { replace: true })
     }
-  }, [data, navigate])
+  }, [report, navigate])
 
-  const missingSkills = data?.missingSkills ?? []
+  const missingSkills = report?.missingSkills ?? []
   const skillBreakdown = [
-  ...(data?.matchedSkills ?? []).map(skill => ({
+  ...(report?.matchedSkills ?? []).map(skill => ({
     name: skill,
     score: 100
   })),
-  ...(data?.missingSkills ?? []).map(skill => ({
+  ...(report?.missingSkills ?? []).map(skill => ({
     name: skill,
     score: 0
   }))
 ]
   const matchedSkillsCount =
-    data?.matchedSkillsCount ??
+    report?.matchedSkillsCount ??
     skillBreakdown.filter((skill) => (skill.score ?? 0) >= 60).length
-  const totalSkills = data?.totalSkills ?? skillBreakdown.length
+  const totalSkills = report?.totalSkills ?? skillBreakdown.length
 
-  if (!data) {
+  const total =
+    (report?.matchedSkills?.length ?? 0) +
+    (report?.missingSkills?.length ?? 0)
+
+  const matchPercentage =
+    total === 0
+      ? 0
+      : Math.round(
+        ((report?.matchedSkills?.length ?? 0) / total) * 100
+        )
+
+  if (!report) {
     // The redirect effect above will send the user back to "/". Render
     // nothing in the meantime rather than a broken/empty dashboard.
     return null
   }
+
+  const experienceInsights = [
+  {
+    type: "strength",
+    title: "Overall Recommendation",
+    description: report.overallRecommendation
+  },
+  {
+    type: "strength",
+    title: "Transferable Skills",
+    description: report.transferableSkills?.join(", ") ?? "No transferable skills identified."
+  }
+]
 
   return (
     <div className="page">
@@ -131,20 +142,15 @@ function Results() {
 
           <div className="results-row results-row-primary">
             <CompatibilityScoreCard
-              score={data.candidateFitScore}
-              matchLabel={data.matchLabel}
-              headline={data.executiveSummary}
-              summary={data.overallAnalysis}
-              experienceScore={data.experienceScore}
-              skillsScore={data.skillsScore}
-              atsScore={data.atsScore}
-              confidence={data.confidence}
+              score={report.candidateFitScore}
+              matchLabel={report.matchLabel}
+              headline={report.executiveSummary ?? report.overallRecommendation}
+              summary={report.overallAnalysis}
             />
             <ResumeSummaryCard
               resumeName="Uploaded Resume"
-              selectedGoal={data.goal}
-              jobTitle="AI Product Engineering Intern"
-              analysisDate={data.analysisDate}
+              selectedGoal={report.goal}
+              analysisDate={new Date().toLocaleDateString()}
               totalSkills={totalSkills}
               matchedSkillsCount={matchedSkillsCount}
               missingSkillsCount={missingSkills.length}
@@ -156,32 +162,28 @@ function Results() {
               skills={skillBreakdown}
               matchedCount={matchedSkillsCount}
               totalCount={totalSkills}
-              matchPercentage={
-    Math.round(
-        ((data?.matchedSkills?.length ?? 0) /
-        ((data?.matchedSkills?.length ?? 0) +
-        (data?.missingSkills?.length ?? 0))) * 100
-    )
-}
+              matchPercentage={matchPercentage}
             />
             <MissingSkillsCard missingSkills={missingSkills} />
           </div>
 
           <div className="results-row results-row-secondary">
             <ExperienceAnalysisCard items={experienceInsights} />
-            <ResumeSuggestionsCard suggestions={data.resumeImprovements ?? []} />
+            <ResumeSuggestionsCard
+    suggestions={report.resumeImprovements ?? []}
+/>
           </div>
 
           <div className="results-row results-row-roadmap">
-            <CareerRoadmapCard steps={data.learningRoadmap ?? []} />
-            <CertificationsCard certifications={data.certificationRecommendations ?? []} />
+            <CareerRoadmapCard steps={report.learningRoadmap ?? []} />
+            <CertificationsCard certifications={report.certificationRecommendations ?? []} />
           </div>
 
           <div className="results-row-full">
-            <JobRolesCard roles={data.jobRecommendations ?? []} />
+            <JobRolesCard roles={report.jobRecommendations ?? []} />
           </div>
 
-          <ResultsActions onDownloadPdf={data.onDownloadPdf} />
+          <ResultsActions report={report} />
         </div>
       </main>
 

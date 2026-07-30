@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom'
+import API from "../services/api"
 
 // ResultsActions
 //
@@ -8,12 +9,41 @@ import { useNavigate } from 'react-router-dom'
 //                   wire up the real behavior via this prop when the backend
 //                   endpoint is ready.
 
-function ResultsActions({ onDownloadPdf }) {
+function ResultsActions({ report }) {
   const navigate = useNavigate()
 
-  const handleDownload = () => {
-    if (onDownloadPdf) onDownloadPdf()
+  const handleDownload = async () => {
+  try {
+    const response = await API.post(
+      "/pdf/generate",
+      report,
+      {
+        responseType: "blob",
+      }
+    )
+
+    const url = window.URL.createObjectURL(
+      new Blob([response.data])
+    )
+
+    const link = document.createElement("a")
+
+    link.href = url
+    link.download = "Career_Report.pdf"
+
+    document.body.appendChild(link)
+
+    link.click()
+
+    link.remove()
+
+    window.URL.revokeObjectURL(url)
+
+  } catch (error) {
+    console.error(error)
+    alert("Failed to generate PDF.")
   }
+}
 
   const handleAnalyzeAnother = () => {
     navigate('/')
